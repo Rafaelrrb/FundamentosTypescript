@@ -1,0 +1,16 @@
+Referencias
+  https://www.typescriptlang.org/pt/
+
+yarn init -y
+  inicia o projeto json
+
+npm add -D typescript
+  bota typescript como dependencia de desenvolvimento
+
+yarn tsc --init
+  inicia o tsconfig.json
+  "outDir": "./dist" define a pasta onde ficara o .js gerados
+
+yarn add ts-node-dev -D
+  referencia https://www.npmjs.com/package/ts-node-dev
+  outra opção https://www.npmjs.com/package/nodemon
