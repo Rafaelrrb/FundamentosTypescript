@@ -1,0 +1,17 @@
+npm i -g typescript
+  Define que será usado TS
+
+tsc nomeDoArquivo
+  Roda o código
+
+tsc --init 
+  Cria o arquivo de configuração do TS "tsconfig.json"
+
+"outDir": "./dist",
+  Define onde vai ser criado os arquivos compilados (tsconfig.json)
+
+"rootDir": "./src",  
+  Define onde fica a pasta de arquivos que vão ser compilados (tsconfig.json)
+
+tsc
+  Como as novas configurações vc roda agora usando apenas isso 
